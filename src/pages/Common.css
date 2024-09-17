@@ -1,0 +1,227 @@
+
+
+.logo{
+    position: fixed;
+    z-index: 1;
+}
+
+.navcolor{
+    font-weight: bold;
+    color: #c03932;
+}
+
+.pdiv{
+    /*perspective: 500px;	*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.head1{
+    font-size: 150px;
+}
+
+.story1{
+    padding: 70px;
+}
+
+.editpro{
+  padding-bottom: 700px;
+  position: absolute;
+}
+
+.show2{
+    font-size: 100px;
+
+}
+
+.show3{
+    font-size: 60px;
+}
+
+
+
+
+/*
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}    225deg
+} 
+
+
+
+@media(max-width:750px){
+    .logo{
+        position: unset;
+    }
+}*/
+
+
+/*About--------------------------------------------------*/
+
+.abt1{
+    
+    overflow-x: hidden;
+}
+
+.div1{
+    
+}
+
+.Abtpanther{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.crd2{
+    background-color: black;
+    color: gray;
+}
+
+.abt2{
+    background-color: #360b09;
+    overflow-x: hidden;
+    
+}
+
+canvas{
+    height: 86vh !important;
+    
+}
+
+/*Header---------------------------------*/
+.btt{
+    background-color: transparent;
+}
+
+
+/*Signin---------------------------------*/
+.appleholder{
+    border-radius: 50%;
+    background-color: black;
+  }
+
+.sign_bg{
+    background-image: linear-gradient(white, black);
+    height: 845px;
+}
+
+.pbg{
+    color: red;
+}
+
+
+.goog{
+    opacity: 0;
+    position: absolute;
+    
+  }
+  
+  .google{
+    border-radius: 50%;
+    
+  }
+
+
+  .facebook{
+    margin-bottom: -55px;
+    
+  }
+  
+  .fb{
+    position: absolute;
+    opacity: 0;
+  }
+
+  .goog1{
+    opacity: 0;
+    position: absolute;
+    
+  }
+  
+  .google1{
+    border-radius: 50%;
+    
+  }
+
+
+  .facebook1{
+   
+    
+  }
+  
+  .fb1{
+    position: absolute;
+    opacity: 0;
+  }
+
+
+  /*----chatbot-----*/
+  .chbot{
+    position: fixed;
+  }
+
+
+  @media(max-width:750px) {
+
+    *{
+        overflow-x: hidden;
+    }
+    
+ canvas{
+    height: 30vh !important;
+    
+}
+
+.head1{
+    font-size: 45px;
+}
+
+.facebook{
+    margin-bottom: 0px;
+    position: absolute;
+    margin-left: -17px;
+    
+    
+  }
+
+  .fb{
+    position: absolute;
+    opacity: 0;
+    margin-left: -23px;
+    margin-top: -20px;
+    
+  }
+
+
+  .google{
+    border-radius: 50%;
+   
+  
+    
+  }
+
+  .sign_bg{
+    background-image: linear-gradient(white, black);
+    height: 100%;
+}
+
+.show2{
+    font-size: 50px;
+
+}
+
+.show3{
+    font-size: 20px;
+}
+
+.text100{
+    color: white;
+}
+
+
+
+
+  }
+

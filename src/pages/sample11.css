@@ -1,0 +1,90 @@
+/* common.css or your CSS file */
+
+.sign_bg {
+    background-image: linear-gradient(white, black);
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .img3 {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .facebook, .google {
+    max-width: 150px;
+    width: 100%;
+  }
+  
+  .fb, .goog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #icons1 {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .facebook, .google {
+      max-width: 120px;
+    }
+  
+    .sign_bg {
+      padding: 10px;
+    }
+  
+    .text100 {
+      font-size: 1rem;
+    }
+  
+    .fs-1 {
+      font-size: 1.5rem;
+    }
+  
+    .img3 {
+      height: auto;
+    }
+  }
+
+
+/* common.css or your CSS file */
+
+/* General styles for buttons */
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .social-logo {
+    width: 24px; /* Adjust icon size */
+    height: auto;
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+  .google-button, .facebook-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .social-button {
+      width: 120px; /* Adjust width for smaller screens */
+      height: 36px; /* Adjust height for smaller screens */
+    }
+  
+    .social-logo {
+      width: 20px; /* Adjust logo size for smaller screens */
+    }
+  }
+  
+
+  
