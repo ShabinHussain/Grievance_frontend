@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import { Col, Row } from 'react-bootstrap';
 import { TextField, Button } from '@mui/material';
-import '../pages/common.css';
+import '../pages/Common.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faApple, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
