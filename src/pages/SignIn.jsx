@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import { Col, Row } from 'react-bootstrap'
 import { TextField } from '@mui/material'
 import Button from '@mui/material/Button';
-import '../pages/common.css'
+import '../pages/Common.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faApple, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { Link, useNavigate } from 'react-router-dom';

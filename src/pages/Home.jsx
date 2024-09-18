@@ -1,13 +1,9 @@
-
-import '../pages/Common.css'
 import { Col, Row } from 'react-bootstrap'
 import Header from '../components/Header'
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense, useState } from 'react'
 import Panther from '../assets/Panther'
 import Feb from '../assets/Feb'
-
-
 import '../pages/Common.css'
 import { Environment, OrbitControls } from '@react-three/drei'
 import { PerspectiveCamera } from '@react-three/drei';
