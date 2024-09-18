@@ -2,10 +2,7 @@
 
 A superhero grievance website where users can log complaints and share their concerns.
 
-## Table of Contents
 
-1. [Home Page]
-2. [Features]
 
 
 ## Home Page
@@ -22,6 +19,8 @@ The homepage is user-friendly and features a 3D model. Key elements include:
 ## Features
 
 - User registration and authentication
+- Hashing passwords for enhanced security
+- Social login options: Sign in with Google and Facebook
 - Ability to log new complaints
 - View submitted grievances
 - Responsive design with a 3D model
